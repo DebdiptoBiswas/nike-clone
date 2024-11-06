@@ -1,0 +1,267 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar { 
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 5%;
+    z-index: 10;
+}
+
+.navbar_netflix {
+    height: 100%;
+    width: 125px;
+}
+
+.navbar_nav_items{ 
+    display: flex; 
+    gap: 10px;
+}
+
+.netflix_logo{
+    width:100%;
+    height:100%;
+}
+
+.language_drop_down { 
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+.hero_bg_img_cont{
+    display : flex;
+}
+
+.nav_item{
+    display: flex; 
+}
+.bi{
+    height : 66%;
+}
+.dropdown_container{
+    border: 1px solid white;
+    padding: 0.4rem;
+    border-radius : 5px;
+    background-color: rgba(0,0,0,0.4);
+    font-weight: bold;
+    height: 32px;
+}
+
+.signin_button{
+border:#dc030f;
+background-color: #dc030f;
+color: white;
+padding:0.25rem 0.5rem;
+border-radius: 4px;
+height: 32px;
+width: 80px;
+font-weight: bold;
+}
+
+.hero_bg_img_cont{
+    width: 100%;
+    height: 100%;
+}
+
+.hero_bg_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero_bg_overlay{
+    position: absolute;
+    inset : 0;
+    width : 100%;
+    height: 100%;
+    background : rgba(0,0,0,0.75);
+}
+.hero_card{
+    position: absolute;
+    top : 30%;
+    width: 100%;
+    text-align: center;
+    display : flex;
+    flex-direction: column;
+    gap : 10px;
+}
+
+.hero_title{
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.hero_subtitle, hero_desc{
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.email{
+    width : 300px;
+    background-color: rgb(27, 27, 27);
+    height : 60px;
+    font-size: large;
+    color : rgb(211, 211, 211);
+    padding: 0.25rem 0.5rem;
+    border-radius : 5px;
+    border-color: rgba(255, 255, 255, 0.453);
+}
+.get_started{
+    font-size: large;
+    font-weight: 666;
+    width: 175px;
+    height: 60px;
+    border:#dc030f;
+    color : white;
+    background-color: #dc030f;
+    border-radius : 5px;
+}
+.hero_desc{
+    font-size : 1rem;
+}
+
+.card-1, .card-2, .card-3{
+    border-top: 8px rgb(69,69,69);
+    padding : 50px;
+}
+
+.card-1{
+    position: relative;
+    display : inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align: left;
+    align-items: center;
+    padding:25px 45px 50px;
+}
+
+.desc-1{
+    padding-left: 80px;
+}
+
+.card-1 video{
+    position: relative;
+    width: 100%;
+    height: 85%;
+    margin-left: 18%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-right: 7%;
+    grid-column : 2/2;
+    grid-row: 1/2;
+    z-index: -1;
+}
+.card-1 img{
+    grid-column : 2/2;
+    grid-row: 1/2;
+}
+
+.style-cards h1{
+    font-size: 3rem;
+    padding:  1rem;
+    padding-left: 0;
+}
+
+.style-cards h3{
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+.card-2{
+    position: relative;
+    display : inline-grid;
+    grid-template-columns: 40% 50%;
+    text-align: left;
+    align-items: center;
+    padding:25px 45px 50px;
+    width : 100%;
+    
+}
+
+.desc-2{
+    padding-left: 20%;
+    right : 20px;
+}
+
+.card-3{
+    position: relative;
+    display : inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align: left;
+    align-items: center;
+    padding:25px 45px 50px;
+}
+
+.desc-3{
+    padding-left: 80px;
+    padding-right: 20px;
+}
+
+.vdo{
+    position: relative;
+    /* width: 100%; */
+    top : -355px;
+    left : 99px;
+    width : 68%;
+    height : 80%;
+    grid-column : 2/2;
+    grid-row: 1/2;
+    z-index : -1;
+}
+.card-3 img{
+    width : 110%;
+    grid-column : 2/2;
+    grid-row: 1/2;
+}
+
+.card-4{
+    top : -150px;
+    position: relative;
+    display : inline-grid;
+    grid-template-columns: 40% 50%;
+    text-align: left;
+    align-items: center;
+    padding:25px 45px 50px;
+    width : 100%;
+    
+}
+
+.desc-4{
+    padding-left: 20%;
+    right : 20px;
+}
+
+.footer,
+.footer a {
+  color: #999;
+  font-size: 1rem;
+  padding: 2%;
+}
+
+.footer p {
+  margin-bottom: 1.5rem;
+  padding-left: 50px;
+}
+
+.footer .footer-cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+  padding-left: 50px;
+}
+
+.footer li {
+  line-height: 1.9;
+}
